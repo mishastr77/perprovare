@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+ /*  outline: 2px solid red; */
+  }
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+li {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* .link,
+.logo-primary,
+.logo-secondary,
+.footer-logo-primary,
+.footer-logo-secondary,
+.header-address,
+.footer-address,
+.footer-info,
+.link-main,
+.hero-link,
+.portfolio-filter-link {
+  text-decoration: none;
+} */
+/* body {
+  font-family: $mainFontFamily;
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0.03em;
+} */
+
+body.modal-open {
+overflow: hidden;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.conteiner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+
+ /*  @include for-size(mobile) {
+    width: 480px;
+  }
+  
+  @include for-size(tablet) {
+    width: 768px;
+  }
+
+  @include for-size(desktop) {
+    width: 1200px;
+  } */
+}
