@@ -58,7 +58,7 @@
   font-family: "slick";
   font-size: 20px;
   line-height: 1;
-  color: #C7133E;
+  color: transparent;
   opacity: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -128,11 +128,11 @@
   border: 0;
   background: transparent;
   display: block;
-  height: 20px;
-  width: 20px;
+  height: 12px;
+  width: 12px;
   outline: none;
   line-height: 0px;
-  font-size: 0px;
+  font-size: 15px;
   color: transparent;
   padding: 5px;
   cursor: pointer;
@@ -151,22 +151,25 @@
   top: 0;
   left: 0;
   content: "•";
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
   font-family: "slick";
-  font-size: 8px;
+  font-size: 15px;
   line-height: 20px;
   text-align: center;
-  color: #C7133E;
+  color: black;
   opacity: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .slick-dots li.slick-active button:before {
-  color: #C7133E;
+  color: transparent;
   opacity: 1;
-  font-size: 8px;
+  font-size: 20px;
+  background-image: url(../img/testimonials1.png);
+  background-position: center;
+  background-size: cover;
 }
 
 /* Slider */
