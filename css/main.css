@@ -153,11 +153,12 @@
   content: "•";
   width: 12px;
   height: 12px;
+  background-image: url(../img/ellipse.png);
   font-family: "slick";
   font-size: 15px;
   line-height: 20px;
   text-align: center;
-  color: black;
+  color: transparent;
   opacity: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -167,7 +168,7 @@
   color: transparent;
   opacity: 1;
   font-size: 20px;
-  background-image: url(../img/testimonials1.png);
+  background-image: url(../img/house.png);
   background-position: center;
   background-size: cover;
 }
@@ -277,6 +278,24 @@
   display: none;
 }
 
+/* белый текст, белые кнопки, фон секций */
+/* заголовки, текст в слайдере, контакт в футере */
+/* основной текст */
+/* вишневый текст, вишневые кнопки, текст в кнопках */
+/* домик в слайдере */
+/* ховер и фокус на вишневые кнопки, точки в слайдере */
+/* ховер и фокус на белые кнопки */
+/* бэкграунд модального меню */
+/* круг под мороженым */
+/* светло-розовый фон секций */
+/* первое мороженое, фон героя */
+/* второе мороженое, список кафе */
+/* третье мороженое, фуд-список */
+/* кружочки социалки */
+/* тень */
+/* вишневая кнопка в локации */
+/* разделяющая линия */
+/* разделяющая линия в модальном меню*/
 @font-face {
   font-family: 'DM Sans';
   font-style: normal;
@@ -440,26 +459,49 @@ body.modal-open {
 .slider {
   display: flex;
   justify-content: center;
-  width: 1280px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 123px;
+  width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 80px;
+}
+
+@media screen and (min-width: 740px) {
+  .slider {
+    width: 740px;
+    padding-left: 74px;
+    padding-right: 74px;
+    padding-top: 121px;
+  }
 }
 
 .slider-text {
-  width: 926px;
-  padding: 47px 89px 39px 87px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 280px;
+  padding: 43px 66px 26px 57px;
+  margin: 0;
   font-family: "DM Sans";
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.86;
-  letter-spacing: 0.04em;
+  line-height: 2.55;
   text-align: center;
   background-color: #FAFAFA;
   color: #000000;
+  background-image: url(../img/underline-slider.png);
+  background-repeat: no-repeat;
+  background-position: 50px 71px;
+}
+
+@media screen and (min-width: 740px) {
+  .slider-text {
+    width: 620px;
+    padding: 47px 80px 34px;
+    font-size: 14px;
+    line-height: 2.16;
+    letter-spacing: 0.04em;
+    background-image: url(../img/Vector-tablet.png);
+    background-repeat: repeat(3);
+    background-position: 60px 76px;
+  }
 }
 
 .slider-img {
